@@ -1,6 +1,6 @@
 # Changelog
 
-## JDCruncheR 0.4.1.9000
+## rjd3qr 0.4.2.9000
 
 All notable changes to this project will be documented in this file.
 
@@ -8,7 +8,20 @@ The format is based on [Keep a
 Changelog](https://keepachangelog.com/en/1.1.0/), and this project
 adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-### [Unreleased](https://github.com/InseeFr/rjd3qr/compare/v0.4.1...HEAD)
+### [Unreleased](https://github.com/InseeFr/rjd3qr/compare/v0.4.2...HEAD)
+
+### [0.4.2](https://github.com/InseeFr/rjd3qr/compare/v0.4.1...v0.4.2) - 2026-08-10
+
+#### Changed
+
+- The `write` method for `JVS_matrix` object now works with a `file`
+  argument instead of `export_dir` and `format`.
+- ARIMA model is now displayed with space instead of commas
+- {JDCruncheR} becomes {rjd3qr}
+- The option `jdc_thresholds` is renamed `rjd3qr.thresholds` to avoid
+  conflict with other packages.
+- In JVS, the irregular standard deviation is now based on the
+  computation sa - t
 
 ### [0.4.1](https://github.com/InseeFr/rjd3qr/compare/v0.4.0...v0.4.1) - 2026-07-29
 
@@ -83,7 +96,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 #### Deprecated
 
 - The function
-  [`export_xlsx()`](https://inseefr.github.io/rjd3qr/reference/deprecated-JDCruncheR.md)
+  [`export_xlsx()`](https://inseefr.github.io/rjd3qr/reference/deprecated-rjd3qr.md)
   is deprecated in favour of `write`.
 
 ### [0.3.6](https://github.com/InseeFr/rjd3qr/compare/v0.3.5...v0.3.6) - 2025-07-24
@@ -145,7 +158,7 @@ adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 #### Fixed
 
 - bug in
-  [`export_xlsx()`](https://inseefr.github.io/rjd3qr/reference/deprecated-JDCruncheR.md)
+  [`export_xlsx()`](https://inseefr.github.io/rjd3qr/reference/deprecated-rjd3qr.md)
   with [`ifelse()`](https://rdrr.io/r/base/ifelse.html)
 
 ### [0.3.0](https://github.com/InseeFr/rjd3qr/compare/v0.2.4...v0.3.0) - 2024-10-09
